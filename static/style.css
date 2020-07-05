@@ -1,0 +1,43 @@
+body{
+    background-image: url('https://miro.medium.com/max/3840/1*MGv5b9bNEIRcYPVxQ50m0Q.jpeg');
+    opacity:0;
+    transition: 2s opacity;
+}
+
+
+
+input,
+label {
+    margin: .4rem 0;
+    font-size: larger;
+}
+
+.calculator-box{
+    border: 1px solid black;
+
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-result{
+    opacity:0;
+    transition: 1s opacity;
+}
+.card{
+    font-size: x-large;
+    -webkit-transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -ms-transition: opacity .5s ease-in-out;
+   -o-transition: opacity .5s ease-in-out;
+   transition: opacity .5s ease-in-out;
+}
