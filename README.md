@@ -11,7 +11,7 @@ This is a simple web calculator implemented on the idea as explained in LeetCode
 Note that `/` here means integer floor division so `9/2 = 4` and not `4.5`
 
 # Motivation
-The project is built to reinforce the learnings of backend developement while at the same time leverage the use of React Component based design to make the UI more intuitive.
+The project is built to reinforce the learnings of backend developement while at the same time leverage the use of React Component based design to make the UI more intuitive. Currently work to include React is in progress
 
 # Prerequiste
 
