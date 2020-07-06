@@ -2,10 +2,13 @@ body{
     background-image: url('https://miro.medium.com/max/3840/1*MGv5b9bNEIRcYPVxQ50m0Q.jpeg');
     opacity:0;
     transition: 2s opacity;
+    pointer-events: auto;
 }
 
-
-
+button{
+    cursor: hand;
+    pointer-events: auto;
+}
 input,
 label {
     margin: .4rem 0;
@@ -33,11 +36,20 @@ label {
     opacity:0;
     transition: 1s opacity;
 }
+
 .card{
     font-size: x-large;
     -webkit-transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -ms-transition: opacity .5s ease-in-out;
-   -o-transition: opacity .5s ease-in-out;
-   transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#react-element{
+    opacity:1;
+    transition:opacity 500ms;
+}
+#react-element.disappear {
+    opacity:0;
 }

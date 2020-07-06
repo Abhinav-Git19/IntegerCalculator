@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
     <title>My Calci</title>
+    <script src="{{url_for('static', filename='app.js')}}"></script>
 </head>
 <body>
-        <div class="calculator-box">
-            <form id='calculator-form'>
-                <label for="expr">Enter your expression:</label><br>
-                <input type="text" id="expr" name="expr" value="3+5"><br>
-                <input type="button" onclick="myFunction()" value="Calculate">
-            </form>
-            <script src="{{url_for('static', filename='app.js')}}"></script>
-            
-            <div id="app-result">
-            </div>
+
+    
+    <div id="react-element">
+    </div>
+    <div class="calculator-box">
+        <form id='calculator-form'>
+            <label for="expr">Enter your expression:</label><br>
+            <input type="text" id="expr" name="expr" value="3+5"><br>
+            <input type="button" onclick="myFunction()" value="Calculate" style="pointer-events: auto;">
+        </form>
+        
+        
+        <div id="app-result">
         </div>
+    </div>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="{{url_for('static', filename='card-box.js')}}"></script>
 </body>
 </html>

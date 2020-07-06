@@ -22,17 +22,16 @@ function myFunction(){
         return response.json();
     }).then(data =>{
         console.log(data);
-        render(data.result)
+        resultrender(data.result)
     })
     
 }
 
-function render(result){
+function resultrender(result){
     section=`<div class="card">
     ${result}
     </div>`
 
-    
     document.getElementById("app-result").innerHTML = section;
     document.querySelector(".card").style.opacity = 0;
     setTimeout( ()=>{
