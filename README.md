@@ -2,7 +2,7 @@
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Motivation](#motivation)
-- [Prerequiste](#prerequiste)
+- [Prerequsite](#prerequsite)
   - [Python Setup](#python-setup)
   - [React Setup(Optional)](#react-setupoptional)
 - [How to Run](#how-to-run)
@@ -12,9 +12,9 @@ This is a simple web calculator implemented on the idea as explained in LeetCode
 Note that `/` here means integer floor division so `9/2 = 4` and not `4.5`
 
 # Motivation
-The project is built to reinforce the learnings of backend developement while at the experiment with React to leverage it's Component based design ideaology to make the UI more intuitive and reusable
+The project is built to reinforce the learnings of backend developement while at the same time experiment with React to leverage it's Component based design ideaology to make the UI more intuitive and reusable
 
-# Prerequiste
+# Prerequsite
 
 ## Python Setup
 Make sure you have python3 installed. In addition following libraries would be needed. You may install them via pip or pip3
