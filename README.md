@@ -31,7 +31,7 @@ flask-cors allows your javascript to entertain cross-origin request. This is don
 ## React Setup(Optional)
 I am currently using an already transpiled react-component card-board.js in html so you may not need to do this setup to run the project at least \
 \
-React uses JSX which is not support by browser natively. In order to able to use React we'll need node package manager to install the required libraries.  Make sure you have [Node.js](https://nodejs.org/) installed in your computer. Once you are done with the installation, in  the project root run the following
+React uses JSX which is not support by browser natively. In order to be able to use React we'll need node package manager to install the required libraries.  Make sure you have [Node.js](https://nodejs.org/) installed in your computer. Once you are done with the installation, in  the project root run the following
 ```
 npm init -y
 npm install babel-cli@6 babel-preset-react-app@3
@@ -44,7 +44,7 @@ For further info on this please refer [React Documentation](https://reactjs.org/
 
 
 # How to Run
-In the project root director run
+In the project root directory run
 ```
 python3 flaskCalci.py
 ```
