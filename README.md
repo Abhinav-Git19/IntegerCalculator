@@ -9,7 +9,7 @@
 - [How to Run](#how-to-run)
 
 # Introduction
-This is a simple web calculator implemented on the idea as explained in LeetCode [Basic CalculatorIII](https://leetcode.com/problems/basic-calculator-iii/). The calculator will accept any expression containing non-negative integers and operators : ```+ * - / ( ) ``` and return calculate integer \
+This is a simple web calculator implemented on the idea as explained in LeetCode [Basic CalculatorIII](https://leetcode.com/problems/basic-calculator-iii/). The calculator will accept any expression containing non-negative integers and operators : ```+ * - / ( ) ``` and return an integer \
 Note that `/` here means integer floor division so `9/2 = 4` and not `4.5`
 
 ## Live Link
