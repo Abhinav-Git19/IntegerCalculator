@@ -21,9 +21,8 @@ var CardBox = function (_React$Component) {
     key: "render",
     value: function render() {
       var cardboxstyle = {
-        position: "relative",
-        left: "100px",
-        top: "200px",
+        position:"relative",
+        top: "50px",
         border: "3px dotted",
         backgroundColor: 'yellow',
         padding: "10px",

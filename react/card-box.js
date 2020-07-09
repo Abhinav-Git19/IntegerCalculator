@@ -4,8 +4,7 @@ class CardBox extends React.Component{
     render(){
       const cardboxstyle={
         position:"relative",
-        left:"100px",
-        top:"200px",
+        top: "50px",
         border: "3px dotted",
         backgroundColor: 'yellow',
         padding: "10px",

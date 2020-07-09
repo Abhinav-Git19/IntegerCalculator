@@ -3,6 +3,9 @@ body{
     opacity:0;
     transition: 2s opacity;
     pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button{
